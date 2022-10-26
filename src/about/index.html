@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-slate-800 bg-cover" style="background-image: url('./assets/img/background.png');">
+<html lang="en" class="bg-slate-800 bg-cover">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <script src="./assets/js/index.js" defer></script>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script src="../assets/js/index.js" defer></script>
+    <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
     <title>Ekstrakulikuler RPL SMAN 1 CIKAMPEK</title>
-    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
 </head>
 
 <body>
     <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a href="https://rplsaci.github.io/" class="flex items-center">
-                <img src="./assets/img/logo.png" class="mr-3 h-6 sm:h-9 rounded-full" alt="RplSaci Logo">
+                <img src="../assets/img/logo.png" class="mr-3 h-6 sm:h-9 rounded-full" alt="RplSaci Logo">
                 <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">RPLCi</span>
             </a>
             <div class="flex md:order-2">
@@ -38,37 +38,69 @@
                 <ul
                     class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
-                        <a href="./index.html"
-                            class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                            aria-current="page">Home</a>
+                        <a href="../index.html"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
                     </li>
                     <li>
-                        <a href="./about/index.html"
-                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                        <a href="./index.html"
+                            class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                            aria-current="page">About</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="content flex items-center justify-center" style="height: 80vh;">
-        <div class="justify-center row">
-            <div class="w-full">
-                <div class="mb-12 text-center header-hero-content">
-                    <h3 class="text-4xl font-light leading-tight text-white header-sub-title">Rekayasa Perangkat Lunak</h3>
-                    <h2 class="mb-3 text-4xl font-bold text-white header-title">SMA NEGERI 1 CIKAMPEK</h2>
-                    <p class="mb-8 header-sub-title text-white font-bold inline p-2 rounded-xl bg-[#0006]">Sebagai tempat atau wadah untuk mengembangkan teknologi-teknologi di masa depan</p>
-                </div>
-            </div>
+    <div class="content text-white">
+        <div id="AboutMain" class="mt-8 text-center">
+            <span class="text-3xl font-bold">Tentang Kami</span>
+            <br>
+            <span class="text-md">Ekstrakurikuler RPL adalah Ekstrakulikuler yang membahas Perangkat Lunak (Software)<br>di sini kita belajar membuat software (coding) dari pemula sampai mengerti<br>Ekstrakurikuler RPL sebenarnya adalah Ekstrakulikuler Robotik <br>Ekstrakulikuler Robotik dibuat pada tahun 2020, dan sekarang berlangsung sekarang sebagai Ekstrakulikuler RPL</span>
         </div>
-    </div>
-    <footer class="inset-x-0 bottom-0 p-2 bg-white sm:p-6 dark:bg-gray-900">
+        <div id="Jadwal" class="mt-8 text-center">
+            <span class="text-3xl font-bold">Jadwal Ekstrakulikuler</span>
+            <br>
+            <span class="text-md">Selasa (Sepulang Sekolah - Selesai) - Untuk Divisi</span>
+            <br>
+            <span class="text-md">Rabu (Sepulang Sekolah - Selesai) - Utama</span>
+        </div>
+        <div id="Tempat" class="mt-8 text-center">
+            <span class="text-3xl font-bold">Tempat Ekstrakulikuler</span>
+            <br>
+            <span class="text-md">Untuk tempatnya, Kami biasanya menggunakan Lab Komputer 2/3 di sekolah</span>
+        </div>
+        <div id="Divisi" class="mt-8 text-center">
+            <span class="text-3xl font-bold">Divisi Ekstrakulikuler</span>
+            <br>
+            <span class="text-xl">Gaming</span>
+            <br>
+            <span class="text-md">Di divisi ini, kita bermain game dan bersama-sama<br>Divisi ini dilaksanakan setiap hari selasa</span>
+            <ul>
+                <li>MLBB (Mobile)</li>
+                <li>Roblox (Mobile/PC)</li>
+                <li>Minecraft (PC)</li>
+            </ul>
+        </div>
+        <div id="Tujuan" class="mt-8 text-center">
+            <span class="text-3xl font-bold">Tujuan Ekstrakulikuler</span>
+            <br>
+            <span class="text-md">Selain bersenang senang, di sini tujuan kami adalah untuk memahami bagaimana cara kerja software</span>
+        </div>
+        <div id="Program Kerja" class="mb-8 mt-8 text-center">
+            <span class="text-3xl font-bold">Proker Ekstrakulikuler</span>
+            <br>
+            <span class="text-md mb-8">Berikut adalah Proker eskul ini dalam bentuk pdf</span>
+            <br>
+            <br>
+            <a class="mt-8 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Download</a>
+        </div>
+    </div>  
+    <footer class="inset-x-0 bottom-0 p-4 bg-white sm:p-6 dark:bg-gray-900">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <a href="https://rplsaci.github.io/" class="flex items-center">
-                    <img src="./assets/img/logo.png" class="mr-3 h-6 sm:h-9 rounded-full" alt="RplSaci Logo">
+                    <img src="../assets/img/logo.png" class="mr-3 h-6 sm:h-9 rounded-full" alt="RplSaci Logo">
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">RPLCi</span>
                 </a>
-                <br>
                 <span>this website may not be the latest version, click <a href="https://rplsaci.github.io/" class="text-blue-600">ME</a> to open the latest version</span>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
