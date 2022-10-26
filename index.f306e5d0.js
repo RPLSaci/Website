@@ -1,0 +1,2 @@
+let date=new Date;document.getElementById("FooterYear")&&(document.getElementById("FooterYear").innerText=document.getElementById("FooterYear").innerText.replace("xxxx",date.getFullYear()));let DiscordLink="https://discord.gg/kDEM8hsDdQ";function getNav(){document.getElementById("navbar-cta").classList.toggle("hidden")}document.getElementById("reg").setAttribute("href",DiscordLink);
+//# sourceMappingURL=index.f306e5d0.js.map
