@@ -41,13 +41,10 @@ jobs:
       run: npm run test --if-present
     - name: Build
       run: npm run buildToSch --if-present
-    - name: Checkout to sch-ready
-      uses: actions/checkout@v3
-      with:
-        ref: ready-sch
-        path: dist
-    - name: Deploy dist
-      run: |
-          cd dist
-          chmod +x ../.github/scripts/push.sh
-          ../.github/scripts/push.sh
+    - name: Deploy
+      uses: s0/git-publish-subdir-action@develop
+      env:
+        REPO: self
+        BRANCH: ready-sch
+        FOLDER: dist
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
