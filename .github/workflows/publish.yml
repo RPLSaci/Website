@@ -46,3 +46,7 @@ jobs:
       with:
         ref: ready-sch
         path: dist
+    - name: Deploy repo
+      run: |
+          cd repo
+          ../main/.github/scripts/push.sh
