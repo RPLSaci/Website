@@ -49,4 +49,5 @@ jobs:
     - name: Deploy dist
       run: |
           cd dist
+          chmod +x ../.github/scripts/push.sh
           ../.github/scripts/push.sh
